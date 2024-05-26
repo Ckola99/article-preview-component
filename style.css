@@ -262,6 +262,137 @@ picture img {
 		position: absolute;
 		right: 373px;
 		bottom: 265px;
-		transform: rotateY("90");
 	}
 }
+
+@media (min-width: 760px) and (max-width: 780px) {
+	.share-section {
+		position: absolute;
+		left: 500px;
+		bottom: 420px;
+	}
+
+	#button-close {
+		position: absolute;
+		right: 30px;
+		top: 83px;
+	}
+
+	.triangle {
+		position: absolute;
+		right: 54px;
+		top: 555px;
+	}
+
+	/* .triangle,
+	#button-close,
+	.triangle {
+		display: none;
+	} */
+}
+
+/*
+ @media (min-width: 819px) {
+	.share-section {
+		position: absolute;
+		left: 600px;
+		top: 700px;
+	}
+
+	#button-close {
+		position: absolute;
+		right: 99px;
+		bottom: 100px;
+	}
+
+	.triangle {
+		position: absolute;
+		right: 117px;
+		top: 690px;
+	}
+
+}
+
+@media (min-width: 820px) {
+	.share-section {
+		position: absolute;
+		left: 730px;
+		bottom: 0px;
+	}
+
+	#button-close {
+		position: absolute;
+		left: 175px;
+		bottom: 0px;
+	}
+
+	.triangle {
+		position: absolute;
+		right: 117px;
+		bottom: 190px;
+	}
+
+}
+
+@media (min-width: 853px) {
+	.share-section {
+		position: absolute;
+		left: 430px;
+		top: 750px;
+	}
+
+	#button-close {
+		position: absolute;
+		left: 175px;
+		bottom: 0px;
+	}
+
+	.triangle {
+		position: absolute;
+		right: 117px;
+		bottom: 80px;
+	}
+
+}
+
+@media (min-width: 910px) {
+	.share-section {
+		position: absolute;
+		left: 600px;
+		bottom: 700px;
+	}
+
+	#button-close {
+		position: absolute;
+		right: 61px;
+		top: 94px;
+	}
+
+	.triangle {
+		position: absolute;
+		right: 125px;
+		top: 719px;
+	}
+
+}
+
+@media (min-width: 1024px) {
+	.share-section {
+		position: absolute;
+		left: 730px;
+		bottom: 670px;
+	}
+
+	#button-close {
+		position: absolute;
+		right: 88px;
+		top: 91px;
+	}
+
+	.triangle {
+		position: absolute;
+		right: 235px;
+		top: 799px;
+	}
+
+} */ */
