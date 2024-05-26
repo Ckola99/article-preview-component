@@ -38,7 +38,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL here](https://your-solution-url.com)
+- Solution URL: [solution URL here](https://www.frontendmentor.io/solutions/article-preview-component-made-with-html-css-and-js-8MCY0o16O3)
 - Live Site URL: [live site URL here](https://ckola99.github.io/article-preview-component/)
 
 ## My process
