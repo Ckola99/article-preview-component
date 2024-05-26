@@ -263,6 +263,16 @@ picture img {
 		right: 373px;
 		bottom: 265px;
 	}
+
+	.share-section,
+	#button-close,
+	.triangle {
+		display: none;
+	}
+
+	.hidden {
+		display: none;
+	}
 }
 
 @media (min-width: 760px) and (max-width: 780px) {

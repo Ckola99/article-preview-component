@@ -9,6 +9,8 @@ shareButton.addEventListener("click", () => {
         triangle.classList.remove('hidden');
         closeButton.classList.remove('hidden');
         shareSection.style.display = 'flex';
+	closeButton.style.display = 'flex';
+	triangle.style.display = 'flex';
     } else {
         shareSection.classList.remove('hidden');
         profileSection.classList.add('hidden');
@@ -21,7 +23,9 @@ closeButton.addEventListener("click", () => {
         shareSection.classList.add('hidden');
         triangle.classList.add('hidden');
         closeButton.classList.add('hidden');
-        shareSection.style.display = 'none';
+	    shareSection.style.display = 'none';
+	    closeButton.style.display = 'none';
+	    triangle.style.display = 'none';
     } else {
         shareSection.classList.add('hidden');
         profileSection.classList.remove('hidden');
