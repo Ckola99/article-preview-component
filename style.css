@@ -1,0 +1,243 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+* {
+	margin: 0;
+}
+body {
+	display: grid;
+	place-content: center;
+	height: 100vh;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	font-size: 13px;
+	font-family: "Manrope";
+	background-color: var(--Light-Grayish-Blue);
+}
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+:root {
+	--Very-Dark-Grayish-Blue: hsl(217, 19%, 35%);
+	--Desaturated-Dark-Blue: hsl(214, 17%, 51%);
+	--Grayish-Blue: hsl(212, 23%, 69%);
+	--Light-Grayish-Blue: hsl(210, 46%, 95%);
+}
+
+@font-face {
+	font-family: "Manrope";
+	src: url(./Manrope/Manrope-VariableFont_wght.ttf) format("truetype");
+	font-weight: 500 700;
+}
+
+.container {
+	display: grid;
+	grid-template-rows: 1fr 2fr;
+	place-content: center;
+	max-height: 31rem;
+	max-width: 20rem;
+	border-radius: 0.75rem;
+	background-color: white;
+	overflow: ;
+}
+
+main {
+	display: grid;
+	place-content: center;
+	height: 100vh;
+}
+
+picture img{
+	height: 100%;
+	width: 100%;
+	object-position: 0px 42px;
+}
+
+
+.content-container {
+	padding: 2.5rem;
+}
+
+.content-container h1 {
+	font-size: .9rem;
+	color: var(--Very-Dark-Grayish-Blue);
+	line-height: 1.5;
+	margin-bottom: 1rem;
+}
+
+.content-container p {
+	line-height: 1.5;
+	color: var(--Desaturated-Dark-Blue);
+	margin-bottom: 1.5rem;
+	font-size: .76rem
+}
+
+.profile {
+	width: 100%;
+	margin-bottom: 1.5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.profile-content {
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+	line-height: 1.5;
+}
+
+.text-container h2{
+	font-size: .75rem;
+	color: var(--Very-Dark-Grayish-Blue);
+}
+
+.text-container h3 {
+	font-size: .73rem;
+	color: var(--Grayish-Blue);
+	font-weight: 500;
+}
+
+.profile-content img {
+	height: 2.25rem;
+	width: 2.25rem;
+	border-radius: 50%;
+}
+
+
+
+#button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 1.7rem;
+	height: 1.7rem;
+	border-radius: 50%;
+	border: none;
+	background-color: var(--Light-Grayish-Blue);
+	padding: .4rem;
+}
+
+#button-close {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 1.7rem;
+	height: 1.7rem;
+	border-radius: 50%;
+	border: none;
+	background-color: var(--Desaturated-Dark-Blue);
+	padding: .4rem;
+}
+
+#button-close svg {
+	fill: white;
+}
+
+
+.share-section {
+	background-color: var(--Very-Dark-Grayish-Blue);
+	margin-top: -3rem;
+	border-radius: 0 0 .5rem 0.5rem;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem 2.5rem;
+	margin-bottom: 3rem;
+	display: none;
+}
+
+.share-section p{
+	text-transform: uppercase;
+	letter-spacing: .25rem;
+	font-size: .85rem;
+	color: var(--Grayish-Blue);
+}
+
+.share-icons {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+
+.hidden {
+	display: none;
+}
+
+@media (min-width: 600px) {
+	.container{
+		display: grid;
+		grid-template-columns: 1fr 2fr;
+		max-width: 35rem;
+		max-height: 15.8rem;
+		border: 2px solid red;
+		padding: 0;
+	}
+
+	picture img{
+		width: 120%;
+		object-position: -10px 0px;
+	}
+
+	picture {
+		width: 100%;
+		height: 100%;
+		border: 1px solid blue;
+	}
+
+	.content-container h1 {
+	color: var(--Very-Dark-Grayish-Blue);
+	line-height: 1.5;
+	margin-bottom: 1rem;
+	}
+
+	.content-container {
+		width: 100%;
+		max-height: 100%;
+		border: 2px solid yellow;
+		padding: 2rem;
+	}
+
+	.content-container p {
+		font-size: 0.65rem;
+	}
+
+	.profile {
+		margin-bottom: 0;
+	}
+
+}
